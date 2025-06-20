@@ -6,7 +6,7 @@ Icon
 ._*
 
 # Netlify & Decap CMS
-/admin/config.yml
+# /admin/config.yml
 /netlify.toml
 
 # Node / Vite / npm

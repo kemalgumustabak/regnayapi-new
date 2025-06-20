@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main
+  repo: kemalgumustabak/regnayapi-new
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "projects"
+    label: "Projeler"
+    folder: "projects"
+    extension: "json"
+    format: "json"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Proje Adı", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Lokasyon", name: "location", widget: "string" }
+      - { label: "Kapak Görseli", name: "coverImage", widget: "image" }
+      - { label: "Kısa Açıklama", name: "shortDescription", widget: "text" }
+      - { label: "Uzun Açıklama", name: "longDescription", widget: "text" }
+      - { label: "Proje Türü", name: "projectType", widget: "select", options: ["ongoing", "completed"] }
+      - { label: "Yıl", name: "year", widget: "number" }
+      - { label: "Müşteri", name: "costumer", widget: "string" }
+      - {
+          label: "Proje Görselleri",
+          name: "projectImages",
+          widget: "list",
+          field: { label: "Görsel", name: "image", widget: "image" }
+        }
