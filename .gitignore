@@ -1,0 +1,43 @@
+# macOS dosyaları
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Netlify & Decap CMS
+/admin/config.yml
+/netlify.toml
+
+# Node / Vite / npm
+node_modules/
+dist/
+build/
+.vite/
+
+# Local config files
+.env
+.env.*.local
+
+# VS Code
+.vscode/
+
+# Firebase Emulator files
+firebase-debug.log
+.firebaserc
+.firebase/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS logs
+*.log
+*.tmp
+*.swp
