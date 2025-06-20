@@ -1,0 +1,15 @@
+{
+  "title": "Delta Konutları Kentsel Dönüşüm",
+  "slug": "delta-konutlari",
+  "location": "Kadıköy, İstanbul",
+  "coverImage": "/assets/img/delta.jpg",
+  "shortDescription": "430 dairelik modern kentsel dönüşüm projesi",
+  "longDescription": "Kadıköy'de gerçekleştirilen Delta Konutları projesi, eski yapıların yerine modern, yeşil alanlarla çevrili yeni yaşam alanları sunmaktadır.",
+  "projectType": "completed",
+  "year": 2023,
+  "costumer": "Delta İnşaat A.Ş.",
+  "projectImages": [
+    "/assets/img/delta-1.jpg",
+    "/assets/img/delta-2.jpg"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Novus Ofis Plaza",
+  "slug": "novus-ofis-plaza",
+  "location": "Bayraklı, İzmir",
+  "coverImage": "/assets/img/novus.jpg",
+  "shortDescription": "LEED Gold sertifikalı A+ ofis binası",
+  "longDescription": "Novus Ofis Plaza, İzmir’in yükselen iş merkezlerinden biri olarak çevreci ve modern ofis alanları sunmaktadır.",
+  "projectType": "ongoing",
+  "year": 2024,
+  "costumer": "Novus GYO",
+  "projectImages": [
+    "/assets/img/novus-1.jpg",
+    "/assets/img/novus-2.jpg"
+  ]
+}
